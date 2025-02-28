@@ -1,8 +1,8 @@
 
-/* General body styling */
+
 body {
-background-color: #121212; /* Dark background */
-color: #e0e0e0; /* Light text color */
+background-color: #121212; 
+color: #e0e0e0; 
 font-family: 'Arial', sans-serif;
 margin: 0;
 padding: 0;
@@ -13,26 +13,27 @@ overflow: hidden;
 
 /* Sidebar styling */
 .sidebar {
-width: 250px; /* Fixed width for sidebar */
-background-color: #1e1e1e; /* Dark sidebar background */
+max-width: 250px;
+
+background-color: #1e1e1e; 
 padding: 20px;
-box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5); 
 display: flex;
 flex-direction: column;
-gap: 15px; /* Space between buttons */
+gap: 15px; 
 }
 
-/* Controls container styling */
+
 .controls {
 display: flex;
 flex-direction: column;
-gap: 10px; /* Space between buttons */
+gap: 10px; 
 }
 
-/* Button styling */
+
 button {
-background-color: #333; /* Dark button background */
-color: #e0e0e0; /* Light text color */
+background-color: #333; 
+color: #e0e0e0;
 border: none;
 padding: 12px 20px;
 border-radius: 8px;
@@ -40,45 +41,49 @@ cursor: pointer;
 font-size: 14px;
 text-align: left;
 transition: background-color 0.3s ease, transform 0.2s ease;
-width: 100%; /* Full width buttons */
+width: 100%;
 }
 
 button:hover {
-background-color: #444; /* Slightly lighter on hover */
-transform: translateY(-2px); /* Slight lift effect */
+background-color: #444; 
+transform: translateY(-2px); 
 }
 
 button:active {
-background-color: #555; /* Even lighter on active */
-transform: translateY(0); /* Reset lift effect */
+background-color: #555; 
+transform: translateY(0); 
 }
 
-/* Specific button styling for better visual hierarchy */
+
 #startBtn {
-background-color: #4CAF50; /* Green for start/stop */
+background-color: #4CAF50; 
 }
 
 #clearBtn {
-background-color: #f44336; /* Red for clear */
+background-color: #f44336; 
 }
 
 #randomBtn {
-background-color: #2196F3; /* Blue for random */
+background-color: #2196F3; 
 }
 
 #gliderGunBtn {
-background-color: #9C27B0; /* Purple for glider gun */
+background-color: #9C27B0; 
 }
 
 #pulsarBtn {
-background-color: #FF9800; /* Orange for pulsar */
+background-color: #FF9800; 
 }
 
 #pentaDecathlonBtn {
-background-color: #00BCD4; /* Cyan for penta-decathlon */
+background-color: #00BCD4; 
 }
 
-/* Hover effects for specific buttons */
+#myLove{
+    background-color: #f44336; 
+}
+
+
 #startBtn:hover {
 background-color: #66BB6A;
 }
@@ -103,5 +108,13 @@ background-color: #FFA726;
 background-color: #26C6DA;
 }
 
-/* Canvas styling */
+canvas{
+    border: 2px solid #9C27B0 ;
+    background-color: hsl(180, 34%, 13%);
+
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    border-radius: 9px;
+}
 

@@ -198,11 +198,11 @@ class Renderer {
         for (let y = 0; y < this.game.rows; y++) {
             for (let x = 0; x < this.game.cols; x++) {
                 if (this.game.grid[y][x]) {
-                    this.ctx.fillStyle = '#2c3e50';
-                    this.ctx.shadowOffsetX = 2;
-                    this.ctx.shadowOffsetY = 2;
+                    this.ctx.fillStyle = '#aaa';
+                    this.ctx.shadowOffsetX = 0;
+                    this.ctx.shadowOffsetY = 0;
                     this.ctx.shadowBlur = 2;
-                    this.ctx.shadowColor = "#aaa";
+                    this.ctx.shadowColor = "#EF5350";
                     this.ctx.fillRect(
                         x * this.game.cellSize,
                         y * this.game.cellSize,
