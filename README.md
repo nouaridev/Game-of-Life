@@ -1,3 +1,5 @@
+**"The file 'Untitled 1.odt' is the original version before using AI to correct grammar mistakes and improve clarity."**
+
 # Conway's Game of Life
 
 ## Logic & Abstract Code Implementation by Ismail Nouari
