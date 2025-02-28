@@ -1,4 +1,4 @@
-**"The file 'Untitled 1.odt' is the original version before using AI to correct grammar mistakes and improve clarity."**
+**"The file 'originalexplanation(grammar mistakes).odt' is the original version before using AI to correct grammar mistakes and improve clarity."**
 
 # Conway's Game of Life
 
