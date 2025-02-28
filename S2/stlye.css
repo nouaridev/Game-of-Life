@@ -1,0 +1,107 @@
+
+/* General body styling */
+body {
+background-color: #121212; /* Dark background */
+color: #e0e0e0; /* Light text color */
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+display: flex;
+height: 100vh;
+overflow: hidden;
+}
+
+/* Sidebar styling */
+.sidebar {
+width: 250px; /* Fixed width for sidebar */
+background-color: #1e1e1e; /* Dark sidebar background */
+padding: 20px;
+box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+display: flex;
+flex-direction: column;
+gap: 15px; /* Space between buttons */
+}
+
+/* Controls container styling */
+.controls {
+display: flex;
+flex-direction: column;
+gap: 10px; /* Space between buttons */
+}
+
+/* Button styling */
+button {
+background-color: #333; /* Dark button background */
+color: #e0e0e0; /* Light text color */
+border: none;
+padding: 12px 20px;
+border-radius: 8px;
+cursor: pointer;
+font-size: 14px;
+text-align: left;
+transition: background-color 0.3s ease, transform 0.2s ease;
+width: 100%; /* Full width buttons */
+}
+
+button:hover {
+background-color: #444; /* Slightly lighter on hover */
+transform: translateY(-2px); /* Slight lift effect */
+}
+
+button:active {
+background-color: #555; /* Even lighter on active */
+transform: translateY(0); /* Reset lift effect */
+}
+
+/* Specific button styling for better visual hierarchy */
+#startBtn {
+background-color: #4CAF50; /* Green for start/stop */
+}
+
+#clearBtn {
+background-color: #f44336; /* Red for clear */
+}
+
+#randomBtn {
+background-color: #2196F3; /* Blue for random */
+}
+
+#gliderGunBtn {
+background-color: #9C27B0; /* Purple for glider gun */
+}
+
+#pulsarBtn {
+background-color: #FF9800; /* Orange for pulsar */
+}
+
+#pentaDecathlonBtn {
+background-color: #00BCD4; /* Cyan for penta-decathlon */
+}
+
+/* Hover effects for specific buttons */
+#startBtn:hover {
+background-color: #66BB6A;
+}
+
+#clearBtn:hover {
+background-color: #EF5350;
+}
+
+#randomBtn:hover {
+background-color: #42A5F5;
+}
+
+#gliderGunBtn:hover {
+background-color: #AB47BC;
+}
+
+#pulsarBtn:hover {
+background-color: #FFA726;
+}
+
+#pentaDecathlonBtn:hover {
+background-color: #26C6DA;
+}
+
+/* Canvas styling */
+
