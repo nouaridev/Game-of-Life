@@ -1,13 +1,21 @@
+body{
+    background-color: #121212; 
+color: #e0e0e0; 
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+height: 100vh;
 
+}
 
-body {
+.body {
 background-color: #121212; 
 color: #e0e0e0; 
 font-family: 'Arial', sans-serif;
 margin: 0;
 padding: 0;
 display: flex;
-height: 100vh;
+
 overflow: hidden;
 }
 
@@ -21,6 +29,7 @@ box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5);
 display: flex;
 flex-direction: column;
 gap: 15px; 
+border-radius: 9px;
 }
 
 
@@ -112,9 +121,103 @@ canvas{
     border: 2px solid #9C27B0 ;
     background-color: hsl(180, 34%, 13%);
 
-    height: 90vh;
+    height: 65vh;
     width: 80%;
     margin: auto;
     border-radius: 9px;
 }
 
+.title {
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    animation: fadeIn 1.5s ease-in-out;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;.title {
+        background-color: #121212;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+       
+        animation: fadeIn 1.5s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .title h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        animation: slideIn 1s ease-in-out;
+    }
+    
+    .title img {
+        max-width: 60px;
+        
+        border-radius: 10px;
+ 
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .title img:hover {
+        transform: scale(1.1) rotate(5deg);
+    }
+
+    
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
+   
+}
+
+.title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.title img {
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.title img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
